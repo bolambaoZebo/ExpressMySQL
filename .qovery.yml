@@ -1,0 +1,15 @@
+---
+application:
+  name: "expressmysql"
+  project: "3WENIGHT"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "webasket_3wenight"
+  version: "5.6"
+routers:
+- name: "main-expressmysql"
+  routes:
+  - application_name: "expressmysql"
+    paths:
+    - "/*"
